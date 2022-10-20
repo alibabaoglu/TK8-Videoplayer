@@ -1,0 +1,134 @@
+{
+      
+      "Der Ballmagnet": [
+        {
+          "title": "Die Schlussfinte",
+          "thumbnail": "assets/thumbnail/thumbnail0.jpeg",
+          "videoDuration": "1:23"
+        },
+        {
+          "title": "Ballannahme",
+          "thumbnail": "assets/thumbnail/thumbnail1.jpeg",
+          "videoDuration": "2:23"
+        },
+        {
+          "title": "Zwischenkontakt",
+          "thumbnail": "assets/thumbnail/thumbnail2.jpeg",
+          "videoDuration": "3:44"
+        },
+        {
+          "title": "Pass / Weiterlaufen",
+          "thumbnail": "assets/thumbnail/thumbnail3.jpeg",
+          "videoDuration": "5:22"
+        },
+        {
+          "title": "Spielnahe ",
+          "thumbnail": "assets/thumbnail/thumbnail4.jpeg",
+          "videoDuration": "3:33"
+        },
+        {
+          "title": "Springen ",
+          "thumbnail": "assets/thumbnail/thumbnail5.jpeg",
+          "videoDuration": "4:13"
+        },
+        {
+          "title": "Jubeln ",
+          "thumbnail": "assets/thumbnail/thumbnail6.jpeg",
+          "videoDuration": "2:14"
+        },
+        {
+          "title": "Ducken ",
+          "thumbnail": "assets/thumbnail/thumbnail7.jpeg",
+          "videoDuration": "3:14"
+        }
+      ],
+    
+    
+      "Satte Schüsse": [
+        {
+          "title": "Die Schlussfinte",
+          "thumbnail": "assets/thumbnail/thumbnail0.jpeg",
+          "videoDuration": "1:23"
+        },
+        {
+          "title": "Ballannahme",
+          "thumbnail": "assets/thumbnail/thumbnail1.jpeg",
+          "videoDuration": "2:23"
+        },
+        {
+          "title": "Zwischenkontakt",
+          "thumbnail": "assets/thumbnail/thumbnail2.jpeg",
+          "videoDuration": "3:44"
+        },
+        {
+          "title": "Pass / Weiterlaufen",
+          "thumbnail": "assets/thumbnail/thumbnail3.jpeg",
+          "videoDuration": "5:22"
+        },
+        {
+          "title": "Tonis Drive",
+          "thumbnail": "assets/thumbnail/thumbnail4.jpeg",
+          "videoDuration": "3:33"
+        },
+        {
+          "title": "Dribbeln",
+          "thumbnail": "assets/thumbnail/thumbnail5.jpeg",
+          "videoDuration": "4:13"
+        },
+        {
+          "title": "Flanken",
+          "thumbnail": "assets/thumbnail/thumbnail6.jpeg",
+          "videoDuration": "2:14"
+        },
+        {
+          "title": "Springen",
+          "thumbnail": "assets/thumbnail/thumbnail7.jpeg",
+          "videoDuration": "3:14"
+        }
+      ],
+    
+    
+      "Tonis Drive": [
+        {
+          "title": "Die Schlussfinte",
+          "thumbnail": "assets/thumbnail/thumbnail0.jpeg",
+          "videoDuration": "1:23"
+        },
+        {
+          "title": "Ballannahme",
+          "thumbnail": "assets/thumbnail/thumbnail1.jpeg",
+          "videoDuration": "2:23"
+        },
+        {
+          "title": "Zwischenkontakt",
+          "thumbnail": "assets/thumbnail/thumbnail2.jpeg",
+          "videoDuration": "3:44"
+        },
+        {
+          "title": "Pass / Weiterlaufen",
+          "thumbnail": "assets/thumbnail/thumbnail3.jpeg",
+          "videoDuration": "5:22"
+        },
+        {
+          "title": "Der Wolf",
+          "thumbnail": "assets/thumbnail/thumbnail4.jpeg",
+          "videoDuration": "3:33"
+        },
+        {
+          "title": "Stratege",
+          "thumbnail": "assets/thumbnail/thumbnail5.jpeg",
+          "videoDuration": "4:13"
+        },
+        {
+          "title": "Augenkontakt",
+          "thumbnail": "assets/thumbnail/thumbnail6.jpeg",
+          "videoDuration": "2:14"
+        },
+        {
+          "title": "Lachen",
+          "thumbnail": "assets/thumbnail/thumbnail7.jpeg",
+          "videoDuration": "3:14"
+        }
+      ]
+  
+}

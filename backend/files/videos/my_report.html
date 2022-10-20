@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+
+	<style>
+		body {
+			font: 12px/18px "Lucida Grande", Arial, Verdana, sans-serif;
+			background-color: #fff;
+			color: #333;
+		}
+
+		h2 {
+		    color: maroon;
+		    font-size: 16px;
+		}
+		
+		span.suffix {
+		    font-size: 14px;
+		}
+
+		h3 {
+		    color: maroon;
+		}
+
+		p.legend {
+			color: #2F4F4F;
+			padding-top: 0px;
+	    	padding-bottom: 0px;
+		    margin-top: 2px;
+			margin-bottom: 2px;
+		}
+
+		p.header {
+			margin-bottom: 2px;
+		}
+
+		p.desc {
+			font-style: italic;
+		    margin-top: 6px;
+			margin-bottom: 6px;
+		}
+
+		table.dur_table {
+			border-top: 1px solid #cdd0d4;
+			border-bottom: 1px solid #cdd0d4;
+			border-collapse: collapse;
+		}
+
+		tr.highlight {
+			background: #f3f3f3;
+		}
+
+		table.variants, table.meta {
+		    border-top: 1px solid #cdd0d4;
+			border-bottom: 1px solid #cdd0d4;
+			border-collapse: collapse;
+		}
+
+		td, th {
+		    padding-left: 6px;
+		    padding-right: 6px;
+		    text-align: right;
+		}
+
+		td.error, th.error {
+		    padding-left: 6px;
+		    padding-right: 6px;
+		    text-align: right;
+		}
+
+		td.center, th.center {
+			text-align: center;
+		}
+
+		td.agroup, th.agroup {
+			width: 54px;
+		}
+
+		th.left, td.left {
+			padding-left: 10px;
+		    padding-right: 10px;
+		    text-align: left;
+		}
+
+		th.meta {
+			text-align: center;
+		}
+		
+		td.meta {
+			border-bottom: 1px solid #cdd0d4;
+		}
+
+		.idCircle {
+		    border-radius: 20%;
+		    padding: 1px;
+
+		    background: #606060;
+		    border: 1px solid #606060;
+		    color: #fff;
+		    text-align: center;
+		}
+
+		button {
+			border-style: solid;
+			border-color: lightskyblue;
+			border-radius: 8px;
+			margin-left: 6px;
+			vertical-align: middle;
+			background-color:lightblue;
+			padding:2px 6px;
+		}
+
+	</style>
+
+<script>
+function toggleSection(name) {
+	var x = document.getElementById(name);
+	if (x.style.display === "none") {
+		x.style.display = "block";
+		event.target.innerHTML = "Hide";
+	} else {
+		x.style.display = "none";
+		event.target.innerHTML = "Show";
+	}
+}
+</script>
+
+</head>
+<body>
+    <h2 id="top">HLS Validation Report<span class="suffix"> (General, tvOS, iOS, macOS, AirPlay 2)</span></h2>
+    <p>Stream type: VOD</p>
+    <p><a href="https://nameless-peak-43855.herokuapp.com/videos/master.m3u8">https://nameless-peak-43855.herokuapp.com/videos/master.m3u8</a></p>
+    <h3>Variant Overview</h3>
+<table class="variants">
+  <tr>
+   <th class="agroup">Audio ID</th>
+   <th class="center">#</th>
+   <th>Max Rate</th>
+   <th>% Diff.</th>
+   <th>PL Avg Rate</th>
+   <th>Avg Rate</th>
+   <th>% Diff</th>
+   <th>Resolution</th>
+   <th>DR</th>
+   <th>IDR Int.</th>
+   <th>Framerate</th>
+   <th>Codec</th>
+   <th>Profile</th>
+   <th>Level</th>
+   <th>Encryption</th>
+   <th>Audio Track Info</th>
+   <th>% Proc.</th>
+  </tr>
+  <tr>
+    <td>NONE</td>
+    <td><div class="idCircle">1</div></td>
+    <td>703</td>
+    <td>0.0%</td>
+    <td>614</td>
+    <td>614</td>
+    <td>0.0%</td>
+    <td>640 x 360</td>
+    <td>SDR</td>
+    <td>2.492</td>
+    <td>25.000</td>
+    <td>AVC</td>
+    <td>High</td>
+    <td>3</td>
+    <td>-</td>
+    <td>AAC-LC, 2-CH</td>
+    <td>100%</td>
+  </tr>
+  <tr>
+    <td align="center">&#x21B3;</td>
+    <td class="center">2</td>
+    <td>1918</td>
+    <td>0.0%</td>
+    <td>1587</td>
+    <td>1587</td>
+    <td>0.0%</td>
+    <td>960 x 540</td>
+    <td>SDR</td>
+    <td>2.492</td>
+    <td>25.000</td>
+    <td>AVC</td>
+    <td>High</td>
+    <td>3.1</td>
+    <td>-</td>
+    <td>AAC-LC, 2-CH</td>
+    <td>100%</td>
+  </tr>
+  <tr>
+    <td align="center">&#x21B3;</td>
+    <td class="center">3</td>
+    <td>3202</td>
+    <td>0.0%</td>
+    <td>2757</td>
+    <td>2757</td>
+    <td>0.0%</td>
+    <td>1280 x 720</td>
+    <td>SDR</td>
+    <td>2.492</td>
+    <td>25.000</td>
+    <td>AVC</td>
+    <td>High</td>
+    <td>3.2</td>
+    <td>-</td>
+    <td>AAC-LC, 2-CH</td>
+    <td>100%</td>
+  </tr>
+  <tr>
+    <td align="center">&#x21B3;</td>
+    <td class="center">4</td>
+    <td>7026</td>
+    <td>0.0%</td>
+    <td>5385</td>
+    <td>5385</td>
+    <td>0.0%</td>
+    <td>1920 x 1080</td>
+    <td>SDR</td>
+    <td>4.055</td>
+    <td>25.000</td>
+    <td>AVC</td>
+    <td>High</td>
+    <td>4</td>
+    <td>-</td>
+    <td>AAC-LC, 2-CH</td>
+    <td>100%</td>
+  </tr>
+</table>
+    <p class="legend">Average duration processed: 0:02:34</p>
+    <h3>Checked against <em>HLS Authoring Specification for Apple Devices</em></h3>
+    <h2>General requirements</h2>
+    <h3>Must Fix Issues</h3>
+    <h4>1. I-frame playlists ( EXT-X-I-FRAME-STREAM-INF ) MUST be provided to support scrubbing and scanning UI</h4>
+<ul style="list-style-type:disc">
+<li>Master Playlist</li>
+</ul>
+    <h4>2. Video segments MUST start with an IDR frame</h4>
+<ul style="list-style-type:disc">
+<li>All Variants, IDR missing on 15 of 16</li>
+</ul>
+    <h3>Should Fix Issues</h3>
+    <h4>3. Captions SHOULD be provided with your streams to make content accessible to the deaf or hard of hearing.</h4>
+<ul style="list-style-type:disc">
+<li>Master Playlist</li>
+</ul>
+    <h4>4. You SHOULD use the EXT-X-INDEPENDENT-SEGMENTS tag in the master playlist</h4>
+<ul style="list-style-type:disc">
+<li>Master Playlist</li>
+</ul>
+    <h4>5. Key frames (IDRs) SHOULD be present every two seconds</h4>
+<ul style="list-style-type:disc">
+<li>All Variants</li>
+</ul>
+    <h4>6. The default video variant(s) SHOULD be the 2000 kb/s variant.</h4>
+<ul style="list-style-type:disc">
+<li>Variant #1</li>
+</ul>
+    <h4>7. Audio data SHOULD be provided as an elementary audio stream or in fMP4</h4>
+<ul style="list-style-type:disc">
+<li>All Variants</li>
+</ul>
+    <h4>8. You SHOULD deliver video and audio as separate streams</h4>
+<ul style="list-style-type:disc">
+<li>All Variants</li>
+</ul>
+    <h4>9. You SHOULD support stream failover</h4>
+<ul style="list-style-type:disc">
+<li>All Variants</li>
+</ul>
+    <h4>10. Content protection SHOULD follow the FairPlay Streaming (FPS) specification</h4>
+<ul style="list-style-type:disc">
+<li>All Variants</li>
+</ul>
+    <h4>11. Target durations SHOULD be 6 seconds.</h4>
+<ul style="list-style-type:disc">
+<li>All Variants</li>
+</ul>
+    <h4>12. All video variants and renditions SHOULD have segment boundaries at the same points in time</h4>
+<ul style="list-style-type:disc">
+<li>Variant #4, Mismatch at segment 1 offset 19.96 instead of 20.0</li>
+</ul>
+    <h2>Additional requirements for iOS</h2>
+    <h3>Must Fix Issues</h3>
+    <h4>13. Master playlists that are delivered over cellular networks MUST contain a variant whose peak BANDWIDTH is less than or equal to 192kb/s.</h4>
+<ul style="list-style-type:disc">
+<li>Master Playlist</li>
+</ul>
+    <h3>Should Fix Issues</h3>
+    <h4>14. For WiFi delivery, the default video variant(s) SHOULD be the 2000 kb/s variant.</h4>
+<ul style="list-style-type:disc">
+<li>Variant #1</li>
+</ul>
+    <h2>Additional requirements for AirPlay 2</h2>
+    <h3>Must Fix Issues</h3>
+    <h4>15. All video variants and renditions MUST have segment boundaries at the same points in time</h4>
+<ul style="list-style-type:disc">
+<li>Variant #4, Mismatch at segment 1 offset 19.96 instead of 20.0</li>
+</ul>
+    <h3>Report Information</h3>
+<table>
+  <tr>
+    <td>MediaStreamValidator version:</td>
+    <td class="left">1.12 (541.12-211008)</td>
+  </tr>
+  <tr>
+    <td>Report generator version:</td>
+    <td class="left">1.12 (541.12-211008)</td>
+  </tr>
+  <tr>
+    <td>Report generation date:</td>
+    <td class="left">01/12/22 17:45:33</td>
+  </tr>
+  <tr>
+    <td>JSON format version:</td>
+    <td class="left">1.1</td>
+  </tr>
+  <tr>
+    <td>JSON data timestamp:</td>
+    <td class="left">01/12/22 17:45:04</td>
+  </tr>
+</table>
+<hr/>
+    <p class="legend">Note on tables: all bitrates are expressed in kb/s, IDs for default startup variants are highlighted in dark grey, entries annotated with an asterisk ('*') do not have a consistent value over the entire stream, entries in parentheses are from master playlist rather than media.</p>
+</body>
+</html>

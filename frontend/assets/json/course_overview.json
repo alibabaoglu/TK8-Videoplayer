@@ -1,0 +1,21 @@
+{
+    "courses":[
+        {
+            "title":"Der Ballmagnet",
+            "videos": "5",
+            "duration": "18"
+          },
+          {
+            "title": "Satte Schüsse",
+            "videos": "5",
+            "duration": "18"
+          },
+          {
+            "title":"Tonis Drive",
+            "videos": "5",
+            "duration": "18"
+          }
+
+    ]
+  
+}

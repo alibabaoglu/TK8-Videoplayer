@@ -1,0 +1,92 @@
+{
+ 
+        "Vorbilder": [
+          {
+            "title": "Die Schlussfinte",
+            "thumbnail": "assets/thumbnail/thumbnail0.jpeg",
+            "videoDuration": "0:00"
+          },
+          {
+            "title": "Ballannahme",
+            "thumbnail": "assets/thumbnail/thumbnail1.jpeg",
+            "videoDuration": "0:00"
+          },
+          {
+            "title": "Zwischenkontakt",
+            "thumbnail": "assets/thumbnail/thumbnail2.jpeg",
+            "videoDuration": "0:00"
+          },
+          {
+            "title": "Pass / Weiterlaufen",
+            "thumbnail": "assets/thumbnail/thumbnail3.jpeg",
+            "videoDuration": "0:00"
+          },
+          {
+            "title": "Spielnahe Schussübung",
+            "thumbnail": "assets/thumbnail/thumbnail4.jpeg",
+            "videoDuration": "0:00"
+          }
+        ],
+   
+  
+        "Hinter den Kulissen": [
+          {
+            "title": "Pass / Weiterlaufen",
+            "thumbnail": "assets/thumbnail/thumbnail7.jpeg",
+            "videoDuration": "0:00"
+          },
+          {
+            "title": "Die Schlussfinte",
+            "thumbnail": "assets/thumbnail/thumbnail6.jpeg",
+            "videoDuration": "0:00"
+          },
+          {
+            "title": "Zwischenkontakt",
+            "thumbnail": "assets/thumbnail/thumbnail5.jpeg",
+            "videoDuration": "0:00"
+          },
+          {
+            "title": "Spielnahe Schussübung",
+            "thumbnail": "assets/thumbnail/thumbnail4.jpeg",
+            "videoDuration": "0:00"
+          },
+          {
+            "title": "Ballannahme",
+            "thumbnail": "assets/thumbnail/thumbnail3.jpeg",
+            "videoDuration": "0:00"
+          }
+        ],
+
+      
+        "Talk with Toni": [
+          {
+            
+            "title": "Spielnahe Schussübung",
+            "thumbnail": "assets/thumbnail/thumbnail3.jpeg",
+            "videoDuration": "0:00"
+          },
+          {
+            "title": "Pass / Weiterlaufen",
+            "thumbnail": "assets/thumbnail/thumbnail4.jpeg",
+            "videoDuration": "0:00"
+          },
+          {
+            "title": "Zwischenkontakt",
+            "thumbnail": "assets/thumbnail/thumbnail5.jpeg",
+            "videoDuration": "0:00"
+          },
+          {
+            "title": "Ballannahme",
+            "thumbnail": "assets/thumbnail/thumbnail6.jpeg",
+            "videoDuration": "0:00"
+          },
+          {
+            "title": "Die Schlussfinte",
+            "thumbnail": "assets/thumbnail/thumbnail1.jpeg",
+            "videoDuration": "0:00"
+          }
+        ]
+      
+    
+  }
+  
